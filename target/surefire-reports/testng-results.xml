@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-14T10:17:09 IST" name="Master Suite" finished-at="2026-09-14T10:17:14 IST" duration-ms="5353">
+  <suite started-at="2026-09-14T11:00:13 IST" name="Master Suite" finished-at="2026-09-14T11:01:23 IST" duration-ms="70529">
     <groups>
       <group name="Master">
-        <method signature="TC_001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:openCartTestCases.TC_001_AccountRegistrationTest@2931522b]" name="verify_account_registration" class="openCartTestCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:openCartTestCases.TC_001_AccountRegistrationTest@3e6f3f28]" name="verify_account_registration" class="openCartTestCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_LoginTest.verify_Login()[pri:0, instance:openCartTestCases.TC_002_LoginTest@5717c37]" name="verify_Login" class="openCartTestCases.TC_002_LoginTest"/>
+        <method signature="TC_004_EditMyAccount_Test.EditMyAccount()[pri:0, instance:openCartTestCases.TC_004_EditMyAccount_Test@4816278d]" name="EditMyAccount" class="openCartTestCases.TC_004_EditMyAccount_Test"/>
+        <method signature="TC_005_ChangeAccountPassword_Test.ChangeAccountPassword()[pri:0, instance:openCartTestCases.TC_005_ChangeAccountPassword_Test@4eaf3684]" name="ChangeAccountPassword" class="openCartTestCases.TC_005_ChangeAccountPassword_Test"/>
+        <method signature="TC_006_Add_Address_Test.Add_Address()[pri:0, instance:openCartTestCases.TC_006_Add_Address_Test@40317ba2]" name="Add_Address" class="openCartTestCases.TC_006_Add_Address_Test"/>
+        <method signature="TC_007_Edit_Address_Test.Edit_Address()[pri:0, instance:openCartTestCases.TC_007_Edit_Address_Test@3c01cfa1]" name="Edit_Address" class="openCartTestCases.TC_007_Edit_Address_Test"/>
       </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_002_LoginTest.verify_Login()[pri:0, instance:openCartTestCases.TC_002_LoginTest@5717c37]" name="verify_Login" class="openCartTestCases.TC_002_LoginTest"/>
+        <method signature="TC_004_EditMyAccount_Test.EditMyAccount()[pri:0, instance:openCartTestCases.TC_004_EditMyAccount_Test@4816278d]" name="EditMyAccount" class="openCartTestCases.TC_004_EditMyAccount_Test"/>
+        <method signature="TC_005_ChangeAccountPassword_Test.ChangeAccountPassword()[pri:0, instance:openCartTestCases.TC_005_ChangeAccountPassword_Test@4eaf3684]" name="ChangeAccountPassword" class="openCartTestCases.TC_005_ChangeAccountPassword_Test"/>
+        <method signature="TC_006_Add_Address_Test.Add_Address()[pri:0, instance:openCartTestCases.TC_006_Add_Address_Test@40317ba2]" name="Add_Address" class="openCartTestCases.TC_006_Add_Address_Test"/>
+        <method signature="TC_007_Edit_Address_Test.Edit_Address()[pri:0, instance:openCartTestCases.TC_007_Edit_Address_Test@3c01cfa1]" name="Edit_Address" class="openCartTestCases.TC_007_Edit_Address_Test"/>
+      </group> <!-- Sanity -->
+      <group name="DataDriven">
+        <method signature="TC_003_LoginDataDrivenTest.verify_Login_TDD(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:openCartTestCases.TC_003_LoginDataDrivenTest@68f4865]" name="verify_Login_TDD" class="openCartTestCases.TC_003_LoginDataDrivenTest"/>
+      </group> <!-- DataDriven -->
       <group name="Regression">
-        <method signature="TC_001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:openCartTestCases.TC_001_AccountRegistrationTest@2931522b]" name="verify_account_registration" class="openCartTestCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:openCartTestCases.TC_001_AccountRegistrationTest@3e6f3f28]" name="verify_account_registration" class="openCartTestCases.TC_001_AccountRegistrationTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2026-09-14T10:17:09 IST" name="Open Cart E2E" finished-at="2026-09-14T10:17:14 IST" duration-ms="5353">
-      <class name="openCartTestCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:openCartTestCases.TC_001_AccountRegistrationTest@2931522b]" started-at="2026-09-14T10:17:09 IST" name="setup" finished-at="2026-09-14T10:17:11 IST" duration-ms="2386" status="PASS">
+    <test started-at="2026-09-14T11:00:13 IST" name="Open Cart E2E" finished-at="2026-09-14T11:01:23 IST" duration-ms="70529">
+      <class name="openCartTestCases.TC_004_EditMyAccount_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:openCartTestCases.TC_004_EditMyAccount_Test@4816278d]" started-at="2026-09-14T11:00:40 IST" name="setup" finished-at="2026-09-14T11:00:42 IST" duration-ms="1403" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,15 +39,244 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:openCartTestCases.TC_001_AccountRegistrationTest@2931522b]" started-at="2026-09-14T10:17:11 IST" name="verify_account_registration" finished-at="2026-09-14T10:17:14 IST" duration-ms="2432" status="PASS">
+        <test-method signature="EditMyAccount()[pri:0, instance:openCartTestCases.TC_004_EditMyAccount_Test@4816278d]" started-at="2026-09-14T11:00:42 IST" name="EditMyAccount" finished-at="2026-09-14T11:00:45 IST" duration-ms="3368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditMyAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:openCartTestCases.TC_004_EditMyAccount_Test@4816278d]" started-at="2026-09-14T11:00:45 IST" name="tearDown" finished-at="2026-09-14T11:00:45 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- openCartTestCases.TC_004_EditMyAccount_Test -->
+      <class name="openCartTestCases.TC_005_ChangeAccountPassword_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:openCartTestCases.TC_005_ChangeAccountPassword_Test@4eaf3684]" started-at="2026-09-14T11:00:45 IST" name="setup" finished-at="2026-09-14T11:00:47 IST" duration-ms="1580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ChangeAccountPassword()[pri:0, instance:openCartTestCases.TC_005_ChangeAccountPassword_Test@4eaf3684]" started-at="2026-09-14T11:00:47 IST" name="ChangeAccountPassword" finished-at="2026-09-14T11:00:51 IST" duration-ms="4145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeAccountPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:openCartTestCases.TC_005_ChangeAccountPassword_Test@4eaf3684]" started-at="2026-09-14T11:00:51 IST" name="tearDown" finished-at="2026-09-14T11:00:51 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- openCartTestCases.TC_005_ChangeAccountPassword_Test -->
+      <class name="openCartTestCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:openCartTestCases.TC_001_AccountRegistrationTest@3e6f3f28]" started-at="2026-09-14T11:00:13 IST" name="setup" finished-at="2026-09-14T11:00:15 IST" duration-ms="2407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration()[pri:0, instance:openCartTestCases.TC_001_AccountRegistrationTest@3e6f3f28]" started-at="2026-09-14T11:00:15 IST" name="verify_account_registration" finished-at="2026-09-14T11:00:18 IST" duration-ms="2784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:openCartTestCases.TC_001_AccountRegistrationTest@2931522b]" started-at="2026-09-14T10:17:14 IST" name="tearDown" finished-at="2026-09-14T10:17:14 IST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:openCartTestCases.TC_001_AccountRegistrationTest@3e6f3f28]" started-at="2026-09-14T11:00:18 IST" name="tearDown" finished-at="2026-09-14T11:00:18 IST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- openCartTestCases.TC_001_AccountRegistrationTest -->
+      <class name="openCartTestCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:openCartTestCases.TC_002_LoginTest@5717c37]" started-at="2026-09-14T11:00:18 IST" name="setup" finished-at="2026-09-14T11:00:20 IST" duration-ms="1393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Login()[pri:0, instance:openCartTestCases.TC_002_LoginTest@5717c37]" started-at="2026-09-14T11:00:20 IST" name="verify_Login" finished-at="2026-09-14T11:00:22 IST" duration-ms="2711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:openCartTestCases.TC_002_LoginTest@5717c37]" started-at="2026-09-14T11:00:22 IST" name="tearDown" finished-at="2026-09-14T11:00:23 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- openCartTestCases.TC_002_LoginTest -->
+      <class name="openCartTestCases.TC_006_Add_Address_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:openCartTestCases.TC_006_Add_Address_Test@40317ba2]" started-at="2026-09-14T11:00:51 IST" name="setup" finished-at="2026-09-14T11:00:53 IST" duration-ms="1351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Add_Address()[pri:0, instance:openCartTestCases.TC_006_Add_Address_Test@40317ba2]" started-at="2026-09-14T11:00:53 IST" name="Add_Address" finished-at="2026-09-14T11:00:56 IST" duration-ms="3151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Address -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:openCartTestCases.TC_006_Add_Address_Test@40317ba2]" started-at="2026-09-14T11:00:56 IST" name="tearDown" finished-at="2026-09-14T11:00:56 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- openCartTestCases.TC_006_Add_Address_Test -->
+      <class name="openCartTestCases.TC_007_Edit_Address_Test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:openCartTestCases.TC_007_Edit_Address_Test@3c01cfa1]" started-at="2026-09-14T11:00:56 IST" name="setup" finished-at="2026-09-14T11:00:57 IST" duration-ms="1460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Edit_Address()[pri:0, instance:openCartTestCases.TC_007_Edit_Address_Test@3c01cfa1]" started-at="2026-09-14T11:00:57 IST" name="Edit_Address" finished-at="2026-09-14T11:01:23 IST" duration-ms="25636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Address -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:openCartTestCases.TC_007_Edit_Address_Test@3c01cfa1]" started-at="2026-09-14T11:01:23 IST" name="tearDown" finished-at="2026-09-14T11:01:23 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- openCartTestCases.TC_007_Edit_Address_Test -->
+      <class name="openCartTestCases.TC_003_LoginDataDrivenTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:openCartTestCases.TC_003_LoginDataDrivenTest@68f4865]" started-at="2026-09-14T11:00:23 IST" name="setup" finished-at="2026-09-14T11:00:24 IST" duration-ms="1405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Login_TDD(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:openCartTestCases.TC_003_LoginDataDrivenTest@68f4865]" started-at="2026-09-14T11:00:25 IST" name="verify_Login_TDD" data-provider="LoginData" finished-at="2026-09-14T11:00:27 IST" duration-ms="1788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maverickdoe001+opencart1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[google@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_TDD -->
+        <test-method signature="verify_Login_TDD(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:openCartTestCases.TC_003_LoginDataDrivenTest@68f4865]" started-at="2026-09-14T11:00:27 IST" name="verify_Login_TDD" data-provider="LoginData" finished-at="2026-09-14T11:00:38 IST" duration-ms="11127" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[google@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at openCartTestCases.TC_003_LoginDataDrivenTest.verify_Login_TDD(TC_003_LoginDataDrivenTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_TDD -->
+        <test-method signature="verify_Login_TDD(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:openCartTestCases.TC_003_LoginDataDrivenTest@68f4865]" started-at="2026-09-14T11:00:38 IST" name="verify_Login_TDD" data-provider="LoginData" finished-at="2026-09-14T11:00:40 IST" duration-ms="1624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maverickdoe001+opencart1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[google@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_TDD -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:openCartTestCases.TC_003_LoginDataDrivenTest@68f4865]" started-at="2026-09-14T11:00:40 IST" name="tearDown" finished-at="2026-09-14T11:00:40 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- openCartTestCases.TC_003_LoginDataDrivenTest -->
     </test> <!-- Open Cart E2E -->
   </suite> <!-- Master Suite -->
 </testng-results>
