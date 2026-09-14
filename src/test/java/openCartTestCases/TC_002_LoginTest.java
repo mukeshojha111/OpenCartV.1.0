@@ -12,7 +12,7 @@ import openCartPageObjects.My_Account_Page;
 
 public class TC_002_LoginTest extends BaseClassXML{
 	
-	@Test 
+	@Test (groups={"Sanity","Master"})
 	public void verify_Login() throws InterruptedException
 	{
 		

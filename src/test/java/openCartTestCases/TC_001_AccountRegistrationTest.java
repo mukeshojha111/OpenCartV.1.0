@@ -12,7 +12,7 @@ import openCartPageObjects.Home_Page;
 
 public class TC_001_AccountRegistrationTest extends BaseClassXML {
 
-	@Test
+	@Test (groups={"Regression","Master"})
 	public void verify_account_registration() {
 
 		try {

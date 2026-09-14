@@ -28,7 +28,7 @@ public class BaseClassXML {
 	public Logger logger;
 	public Properties prop;
 
-	@BeforeClass
+	@BeforeClass (groups={"Regression","Master","Sanity","DataDriven"})
 
 	@Parameters({ "browser" })
 	public void setup(String brwName) throws IOException { // Loading Config.properties file
@@ -55,7 +55,7 @@ public class BaseClassXML {
 		driver.get(prop.getProperty("applicationURL"));
 	}
 
-	@AfterClass
+	@AfterClass (groups={"Regression","Master","Sanity","DataDriven"})
 	public void tearDown() {
 		driver.quit();
 	}

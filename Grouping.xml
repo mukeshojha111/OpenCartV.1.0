@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite >
+<suite name="Master Suite" thread-count="5">
+
+	<groups>
+		<run>
+			<include name="Master" />
+		<!-- 	<exclude name="Master" /> 
+			<exclude name="Sanity" /> 
+			<exclude name="Smoke" />
+			<exclude name ="DataDriven" />  -->
+		</run>
+	</groups>
+	
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+
+	<test name="Open_Cart_E2E">
+		<parameter name="Operating System" value="Windows" />
+		<parameter name="browser" value="Chrome" />
+
+		<classes>
+			<class name="openCartTestCases.TC_001_AccountRegistrationTest" />
+			<class name="openCartTestCases.TC_002_LoginTest" />
+			<class name="openCartTestCases.TC_003_LoginDataDrivenTest" />
+			<class name="openCartTestCases.TC_004_EditMyAccount_Test" />
+			<class
+				name="openCartTestCases.TC_005_ChangeAccountPassword_Test" />
+			<class name="openCartTestCases.TC_006_Add_Address_Test" />
+			<class name="openCartTestCases.TC_007_Edit_Address_Test" />
+		</classes>
+	</test> <!-- Open_Cart_E2E -->
+</suite> <!-- Master Suite -->

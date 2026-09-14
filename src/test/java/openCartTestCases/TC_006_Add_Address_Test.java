@@ -11,7 +11,7 @@ import openCartPageObjects.My_Account_Page;
 
 public class TC_006_Add_Address_Test extends BaseClassXML{
 	
-	@Test
+	@Test (groups={"Sanity","Master"})
 	public void Add_Address()
 	{
 		try {

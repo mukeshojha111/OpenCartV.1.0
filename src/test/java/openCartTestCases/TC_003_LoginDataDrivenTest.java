@@ -13,7 +13,7 @@ import utilities.DataProviders;
 
 public class TC_003_LoginDataDrivenTest extends BaseClassXML{
 	
-	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class)
+	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class, groups="DataDriven")
 	public void verify_Login_TDD(String email, String pwd, String exp) throws InterruptedException
 	{
 		try {

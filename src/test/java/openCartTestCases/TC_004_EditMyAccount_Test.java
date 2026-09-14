@@ -12,7 +12,7 @@ import openCartPageObjects.My_Account_Page;
 
 public class TC_004_EditMyAccount_Test extends BaseClassXML{
 	
-	@Test
+	@Test (groups={"Sanity","Master"})
 	public void EditMyAccount()
 	{
 		try {

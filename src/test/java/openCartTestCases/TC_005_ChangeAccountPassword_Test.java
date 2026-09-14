@@ -13,7 +13,7 @@ import openCartPageObjects.Password_Page;
 
 public class TC_005_ChangeAccountPassword_Test extends BaseClassXML{
 	
-	@Test
+	@Test (groups={"Sanity","Master"})
 	public void ChangeAccountPassword()
 	{
 		try {
