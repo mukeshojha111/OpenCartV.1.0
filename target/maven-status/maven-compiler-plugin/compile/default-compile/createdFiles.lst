@@ -1,9 +1,9 @@
 openCartPageObjects\Password_Page.class
 openCartPageObjects\Address_Book_Add_Page.class
 openCartPageObjects\Address_Book_Edit_Page.class
-openCartPageObjects\Base_Page.class
 openCartPageObjects\My_Account_Info_Page.class
-openCartPageObjects\My_Account_Page.class
 openCartPageObjects\Home_Page.class
+openCartPageObjects\Base_Page.class
+openCartPageObjects\My_Account_Page.class
 openCartPageObjects\New_Account_Registration_Page.class
 openCartPageObjects\Login_Page.class

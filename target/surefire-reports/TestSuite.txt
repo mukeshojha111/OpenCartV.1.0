@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 101.3 s <<< FAILURE! -- in TestSuite
-openCartTestCases.TC_003_LoginDataDrivenTest.verify_Login_TDD[abcd@xyz.com, google@123, Invalid](2) -- Time elapsed: 10.61 s <<< FAILURE!
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 106.9 s <<< FAILURE! -- in TestSuite
+openCartTestCases.TC_003_LoginDataDrivenTest.verify_Login_TDD[abcd@xyz.com, google@123, Invalid](2) -- Time elapsed: 10.55 s <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
