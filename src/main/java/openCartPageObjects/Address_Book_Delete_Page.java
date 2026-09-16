@@ -41,12 +41,23 @@ public class Address_Book_Delete_Page extends Base_Page {
 	}
 	
 
-	public void clickDeleteButton() {
+	public String clickDeleteButton() {
+		String msgfail = "Warning: You must have at least one address!";
 		if (isAddressAvailable() !=null) {
-			for (int i = 0; i < tableCount.size(); i++) {
-				btnDeleteAddress.get(0).click();
+			
+			if(tableCount.size()>1)
+			{
+				for (int i = 0; i < tableCount.size(); i++) {
+					btnDeleteAddress.get(1).click();
+				}	
 			}
+			else
+			{
+				System.out.println(msgfail);
+			}
+			
 		}
+		return msgfail;
 	}
 
 	
