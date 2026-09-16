@@ -8,13 +8,13 @@
     <parameter name="browser" value="Chrome"/>
     <parameter name="Operating System" value="Windows"/>
     <classes>
-      <class name="openCartTestCases.TC_003_LoginDataDrivenTest">
+      <class name="openCartTestCases.TC_008_Delete_Address_Test">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verify_Login_TDD" invocation-numbers="1"/>
+          <include name="Edit_Address"/>
         </methods>
-      </class> <!-- openCartTestCases.TC_003_LoginDataDrivenTest -->
+      </class> <!-- openCartTestCases.TC_008_Delete_Address_Test -->
     </classes>
   </test> <!-- Open Cart E2E(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

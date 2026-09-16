@@ -129,3 +129,6 @@
 10:01:56.010 [main] INFO  openCartTestCases.TC_007_Edit_Address_Test - ** TC_007_Edit_Address_Test Finished **
 10:01:59.175 [main] INFO  openCartTestCases.TC_008_Delete_Address_Test - ** TC_008_Delete_Address_Test Started **
 10:02:13.888 [main] INFO  openCartTestCases.TC_008_Delete_Address_Test - ** TC_008_Delete_Address_Test Finished **
+10:21:51.032 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\Master.xml"
+10:21:51.046 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\Master.xml] otherwise TestNG may fail or not work as expected.
+10:21:55.362 [main] INFO  openCartTestCases.TC_008_Delete_Address_Test - ** TC_008_Delete_Address_Test Started **
