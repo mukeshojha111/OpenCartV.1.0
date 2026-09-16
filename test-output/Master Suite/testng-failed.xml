@@ -4,21 +4,17 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Open_Cart_E2E(failed)">
+  <test thread-count="5" name="Open Cart E2E(failed)">
     <parameter name="browser" value="Chrome"/>
     <parameter name="Operating System" value="Windows"/>
-    <groups>
-      <run>
-        <include name="DataDriven"/>
-      </run>
-    </groups>
     <classes>
       <class name="openCartTestCases.TC_003_LoginDataDrivenTest">
         <methods>
           <include name="setup"/>
-          <include name="verify_Login_TDD" invocation-numbers="1 2 3"/>
+          <include name="tearDown"/>
+          <include name="verify_Login_TDD" invocation-numbers="1"/>
         </methods>
       </class> <!-- openCartTestCases.TC_003_LoginDataDrivenTest -->
     </classes>
-  </test> <!-- Open_Cart_E2E(failed) -->
+  </test> <!-- Open Cart E2E(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

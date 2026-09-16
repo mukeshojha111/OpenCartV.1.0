@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Open Cart E2E</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 16 08:51:57 IST 2026</td>
+<td>Started on:</td><td>Wed Sep 16 09:48:00 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>99 seconds (99364 ms)</td>
+<tr><td>Total time:</td><td>98 seconds (98491 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -80,8 +80,8 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at openCartTestCases.TC_003_LoginDataDrivenTest.verify_Login_TDD(TC_003_LoginDataDrivenTest.java:31)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1523683407", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1523683407'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1218632562", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1218632562'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
@@ -110,16 +110,12 @@ function toggleAllBoxes() {
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
 	at org.testng.TestNG.runSuites(TestNG.java:1112)
 	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>10</td>
-<td>openCartTestCases.TC_003_LoginDataDrivenTest@38089a5a</td></tr>
+<td>11</td>
+<td>openCartTestCases.TC_003_LoginDataDrivenTest@3a5ecce3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -130,45 +126,50 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='openCartTestCases.TC_003_LoginDataDrivenTest.verify_Login_TDD()'><b>verify_Login_TDD</b><br>Test class: openCartTestCases.TC_003_LoginDataDrivenTest<br>Parameters: maverickdoe001+opencart1@gmail.com, google@12345, Valid</td>
-<td></td>
-<td>1</td>
-<td>openCartTestCases.TC_003_LoginDataDrivenTest@38089a5a</td></tr>
-<tr>
-<td title='openCartTestCases.TC_006_Add_Address_Test.Add_Address()'><b>Add_Address</b><br>Test class: openCartTestCases.TC_006_Add_Address_Test</td>
-<td></td>
-<td>3</td>
-<td>openCartTestCases.TC_006_Add_Address_Test@332796d3</td></tr>
-<tr>
 <td title='openCartTestCases.TC_002_LoginTest.verify_Login()'><b>verify_Login</b><br>Test class: openCartTestCases.TC_002_LoginTest</td>
 <td></td>
 <td>3</td>
-<td>openCartTestCases.TC_002_LoginTest@4b23c30a</td></tr>
-<tr>
-<td title='openCartTestCases.TC_004_EditMyAccount_Test.EditMyAccount()'><b>EditMyAccount</b><br>Test class: openCartTestCases.TC_004_EditMyAccount_Test</td>
-<td></td>
-<td>4</td>
-<td>openCartTestCases.TC_004_EditMyAccount_Test@30e868be</td></tr>
-<tr>
-<td title='openCartTestCases.TC_001_AccountRegistrationTest.verify_account_registration()'><b>verify_account_registration</b><br>Test class: openCartTestCases.TC_001_AccountRegistrationTest</td>
-<td></td>
-<td>3</td>
-<td>openCartTestCases.TC_001_AccountRegistrationTest@1e461e41</td></tr>
-<tr>
-<td title='openCartTestCases.TC_005_ChangeAccountPassword_Test.ChangeAccountPassword()'><b>ChangeAccountPassword</b><br>Test class: openCartTestCases.TC_005_ChangeAccountPassword_Test</td>
-<td></td>
-<td>5</td>
-<td>openCartTestCases.TC_005_ChangeAccountPassword_Test@66c92293</td></tr>
-<tr>
-<td title='openCartTestCases.TC_003_LoginDataDrivenTest.verify_Login_TDD()'><b>verify_Login_TDD</b><br>Test class: openCartTestCases.TC_003_LoginDataDrivenTest<br>Parameters: maverickdoe001+opencart1@gmail.com, google@12345, Valid</td>
-<td></td>
-<td>2</td>
-<td>openCartTestCases.TC_003_LoginDataDrivenTest@38089a5a</td></tr>
+<td>openCartTestCases.TC_002_LoginTest@6155d082</td></tr>
 <tr>
 <td title='openCartTestCases.TC_007_Edit_Address_Test.Edit_Address()'><b>Edit_Address</b><br>Test class: openCartTestCases.TC_007_Edit_Address_Test</td>
 <td></td>
 <td>26</td>
-<td>openCartTestCases.TC_007_Edit_Address_Test@4f0100a7</td></tr>
+<td>openCartTestCases.TC_007_Edit_Address_Test@2dcd168a</td></tr>
+<tr>
+<td title='openCartTestCases.TC_006_Add_Address_Test.Add_Address()'><b>Add_Address</b><br>Test class: openCartTestCases.TC_006_Add_Address_Test</td>
+<td></td>
+<td>3</td>
+<td>openCartTestCases.TC_006_Add_Address_Test@6138e79a</td></tr>
+<tr>
+<td title='openCartTestCases.TC_003_LoginDataDrivenTest.verify_Login_TDD()'><b>verify_Login_TDD</b><br>Test class: openCartTestCases.TC_003_LoginDataDrivenTest<br>Parameters: maverickdoe001+opencart1@gmail.com, google@12345, Valid</td>
+<td></td>
+<td>2</td>
+<td>openCartTestCases.TC_003_LoginDataDrivenTest@3a5ecce3</td></tr>
+<tr>
+<td title='openCartTestCases.TC_004_EditMyAccount_Test.EditMyAccount()'><b>EditMyAccount</b><br>Test class: openCartTestCases.TC_004_EditMyAccount_Test</td>
+<td></td>
+<td>3</td>
+<td>openCartTestCases.TC_004_EditMyAccount_Test@561868a0</td></tr>
+<tr>
+<td title='openCartTestCases.TC_008_Delete_Address_Test.Edit_Address()'><b>Edit_Address</b><br>Test class: openCartTestCases.TC_008_Delete_Address_Test</td>
+<td></td>
+<td>14</td>
+<td>openCartTestCases.TC_008_Delete_Address_Test@388526fb</td></tr>
+<tr>
+<td title='openCartTestCases.TC_005_ChangeAccountPassword_Test.ChangeAccountPassword()'><b>ChangeAccountPassword</b><br>Test class: openCartTestCases.TC_005_ChangeAccountPassword_Test</td>
+<td></td>
+<td>4</td>
+<td>openCartTestCases.TC_005_ChangeAccountPassword_Test@2ea6e30c</td></tr>
+<tr>
+<td title='openCartTestCases.TC_003_LoginDataDrivenTest.verify_Login_TDD()'><b>verify_Login_TDD</b><br>Test class: openCartTestCases.TC_003_LoginDataDrivenTest<br>Parameters: maverickdoe001+opencart1@gmail.com, google@12345, Valid</td>
+<td></td>
+<td>1</td>
+<td>openCartTestCases.TC_003_LoginDataDrivenTest@3a5ecce3</td></tr>
+<tr>
+<td title='openCartTestCases.TC_001_AccountRegistrationTest.verify_account_registration()'><b>verify_account_registration</b><br>Test class: openCartTestCases.TC_001_AccountRegistrationTest</td>
+<td></td>
+<td>2</td>
+<td>openCartTestCases.TC_001_AccountRegistrationTest@5dcb4f5f</td></tr>
 </table><p>
 </body>
 </html>

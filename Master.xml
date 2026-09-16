@@ -7,15 +7,16 @@
 	<test name="Open Cart E2E">
 		<parameter name="Operating System" value="Windows" />
 		<parameter name="browser" value="Chrome" />
-		
+
 		<classes>
 			<class name="openCartTestCases.TC_001_AccountRegistrationTest" />
-	 		<class name="openCartTestCases.TC_002_LoginTest" />
+			<class name="openCartTestCases.TC_002_LoginTest" />
 			<class name="openCartTestCases.TC_003_LoginDataDrivenTest" />
 			<class name="openCartTestCases.TC_004_EditMyAccount_Test" />
 			<class name="openCartTestCases.TC_005_ChangeAccountPassword_Test" />
 			<class name="openCartTestCases.TC_006_Add_Address_Test" />
-			<class name="openCartTestCases.TC_007_Edit_Address_Test" /> 
+			<class name="openCartTestCases.TC_007_Edit_Address_Test" />
+			<class name="openCartTestCases.TC_008_Delete_Address_Test" />
 		</classes>
 	</test> <!-- Open Cart E2E -->
 </suite> <!-- Master Suite -->

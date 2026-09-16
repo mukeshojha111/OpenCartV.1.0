@@ -1,13 +1,13 @@
-D:\ECLIPSE\Eclipse Workspace\OpenCartV.1.0\src\test\java\utilities\DataProviders.java
-D:\ECLIPSE\Eclipse Workspace\OpenCartV.1.0\src\test\java\openCartTestCases\TC_002_LoginTest.java
-D:\ECLIPSE\Eclipse Workspace\OpenCartV.1.0\src\test\java\openCartTestCases\TC_003_LoginDataDrivenTest.java
-D:\ECLIPSE\Eclipse Workspace\OpenCartV.1.0\src\test\java\utilities\ExcelUtility.java
-D:\ECLIPSE\Eclipse Workspace\OpenCartV.1.0\src\test\java\openCartTestCases\TC_005_ChangeAccountPassword_Test.java
-D:\ECLIPSE\Eclipse Workspace\OpenCartV.1.0\src\test\java\openCartTestCases\TC_007_Edit_Address_Test.java
-D:\ECLIPSE\Eclipse Workspace\OpenCartV.1.0\src\test\java\BaseTest\BaseClassXML.java
-D:\ECLIPSE\Eclipse Workspace\OpenCartV.1.0\src\test\java\openCartTestCases\TC_004_EditMyAccount_Test.java
-D:\ECLIPSE\Eclipse Workspace\OpenCartV.1.0\src\test\java\utilities\ExtentReportManager.java
-D:\ECLIPSE\Eclipse Workspace\OpenCartV.1.0\src\test\java\BaseTest\BaseClass.java
-D:\ECLIPSE\Eclipse Workspace\OpenCartV.1.0\src\test\java\openCartTestCases\TC_001_AccountRegistrationTest.java
-D:\ECLIPSE\Eclipse Workspace\OpenCartV.1.0\src\test\java\openCartTestCases\TC_006_Add_Address_Test.java
-D:\ECLIPSE\Eclipse Workspace\OpenCartV.1.0\src\test\java\BaseTest\BaseClassGrid.java
+C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\src\test\java\openCartTestCases\TC_007_Edit_Address_Test.java
+C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\src\test\java\BaseTest\BaseClassGrid.java
+C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\src\test\java\utilities\ExcelUtility.java
+C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\src\test\java\openCartTestCases\TC_001_AccountRegistrationTest.java
+C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\src\test\java\utilities\DataProviders.java
+C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\src\test\java\openCartTestCases\TC_002_LoginTest.java
+C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\src\test\java\openCartTestCases\TC_003_LoginDataDrivenTest.java
+C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\src\test\java\BaseTest\BaseClass.java
+C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\src\test\java\utilities\ExtentReportManager.java
+C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\src\test\java\openCartTestCases\TC_006_Add_Address_Test.java
+C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\src\test\java\openCartTestCases\TC_004_EditMyAccount_Test.java
+C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\src\test\java\BaseTest\BaseClassXML.java
+C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\src\test\java\openCartTestCases\TC_005_ChangeAccountPassword_Test.java
