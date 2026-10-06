@@ -9,7 +9,7 @@
 		<parameter name="browser" value="Chrome" />
 
 		<classes>
-		<!-- 	<class name="openCartTestCases.TC_001_AccountRegistrationTest" />
+		<!--<class name="openCartTestCases.TC_001_AccountRegistrationTest" />
 			<class name="openCartTestCases.TC_002_LoginTest" />
 			<class name="openCartTestCases.TC_003_LoginDataDrivenTest" />
 			<class name="openCartTestCases.TC_004_EditMyAccount_Test" />

@@ -1,0 +1,26 @@
+
+https://rahulshettyacademy.com/locatorspractice/ rahulshettyacademy
+
+https://rahulshettyacademy.com/AutomationPractice/
+
+https://rahulshettyacademy.com/dropdownsPractise/
+
+https://opensource-demo.orangehrmlive.com/
+
+https://rahulshettyacademy.com/angularpractice/
+
+https://rahulshettyacademy.com/seleniumPractise/
+
+https://the-internet.herokuapp.com/
+
+https://jqueryui.com/
+
+http://rahulshettyacademy.com/client
+
+
+======================================
+OpenCart : https://tutorialsninja.com/demo/
+
+userEmail1 = maverickdoe001+opencart1@gmail.com
+userEmail2 = maverickdoe001+opencart2@gmail.com
+userPwd = google@12345

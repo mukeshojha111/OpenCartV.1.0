@@ -1,0 +1,9 @@
+16:51:56.078 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\Master.xml"
+16:51:56.097 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\Master.xml] otherwise TestNG may fail or not work as expected.
+16:51:56.289 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\ECLIPSE\WORKSPACE\OpenCartV.1.0\Master.xml
+
+16:52:34.475 [main] INFO  openCartTestCases.TC_006_Add_Address_Test - ** TC_006_Add_Address_Test Started **
+16:52:39.544 [main] INFO  openCartTestCases.TC_006_Add_Address_Test - ** TC_006_Add_Address_Test Finished **
+16:52:41.524 [main] INFO  openCartTestCases.TC_008_Delete_Address_Test - ** TC_008_Delete_Address_Test Started **
+16:52:57.051 [main] INFO  openCartTestCases.TC_008_Delete_Address_Test - ** TC_008_Delete_Address_Test Finished **

@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-16T10:29:43 IST" name="Master Suite" finished-at="2026-09-16T10:30:10 IST" duration-ms="26894">
+  <suite started-at="2026-10-06T16:51:56 IST" name="Master Suite" finished-at="2026-10-06T16:52:58 IST" duration-ms="62484">
     <groups>
       <group name="Master">
         <method signature="TC_006_Add_Address_Test.Add_Address()[pri:0, instance:openCartTestCases.TC_006_Add_Address_Test@5e4bd84a]" name="Add_Address" class="openCartTestCases.TC_006_Add_Address_Test"/>
@@ -13,9 +13,9 @@
         <method signature="TC_008_Delete_Address_Test.Edit_Address()[pri:0, instance:openCartTestCases.TC_008_Delete_Address_Test@6c0d9d86]" name="Edit_Address" class="openCartTestCases.TC_008_Delete_Address_Test"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2026-09-16T10:29:43 IST" name="Open Cart E2E" finished-at="2026-09-16T10:30:10 IST" duration-ms="26894">
+    <test started-at="2026-10-06T16:51:56 IST" name="Open Cart E2E" finished-at="2026-10-06T16:52:58 IST" duration-ms="62484">
       <class name="openCartTestCases.TC_008_Delete_Address_Test">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:openCartTestCases.TC_008_Delete_Address_Test@6c0d9d86]" started-at="2026-09-16T10:29:52 IST" name="setup" finished-at="2026-09-16T10:29:53 IST" duration-ms="1753" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:openCartTestCases.TC_008_Delete_Address_Test@6c0d9d86]" started-at="2026-10-06T16:52:39 IST" name="setup" finished-at="2026-10-06T16:52:41 IST" duration-ms="1792" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,17 +26,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Edit_Address()[pri:0, instance:openCartTestCases.TC_008_Delete_Address_Test@6c0d9d86]" started-at="2026-09-16T10:29:53 IST" name="Edit_Address" finished-at="2026-09-16T10:30:10 IST" duration-ms="16485" status="PASS">
+        <test-method signature="Edit_Address()[pri:0, instance:openCartTestCases.TC_008_Delete_Address_Test@6c0d9d86]" started-at="2026-10-06T16:52:41 IST" name="Edit_Address" finished-at="2026-10-06T16:52:57 IST" duration-ms="15528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Edit_Address -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:openCartTestCases.TC_008_Delete_Address_Test@6c0d9d86]" started-at="2026-09-16T10:30:10 IST" name="tearDown" finished-at="2026-09-16T10:30:10 IST" duration-ms="264" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:openCartTestCases.TC_008_Delete_Address_Test@6c0d9d86]" started-at="2026-10-06T16:52:57 IST" name="tearDown" finished-at="2026-10-06T16:52:58 IST" duration-ms="1722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- openCartTestCases.TC_008_Delete_Address_Test -->
       <class name="openCartTestCases.TC_006_Add_Address_Test">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:openCartTestCases.TC_006_Add_Address_Test@5e4bd84a]" started-at="2026-09-16T10:29:44 IST" name="setup" finished-at="2026-09-16T10:29:47 IST" duration-ms="3570" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:openCartTestCases.TC_006_Add_Address_Test@5e4bd84a]" started-at="2026-10-06T16:51:56 IST" name="setup" finished-at="2026-10-06T16:52:34 IST" duration-ms="37972" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,11 +47,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Add_Address()[pri:0, instance:openCartTestCases.TC_006_Add_Address_Test@5e4bd84a]" started-at="2026-09-16T10:29:47 IST" name="Add_Address" finished-at="2026-09-16T10:29:51 IST" duration-ms="4313" status="PASS">
+        <test-method signature="Add_Address()[pri:0, instance:openCartTestCases.TC_006_Add_Address_Test@5e4bd84a]" started-at="2026-10-06T16:52:34 IST" name="Add_Address" finished-at="2026-10-06T16:52:39 IST" duration-ms="5082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Add_Address -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:openCartTestCases.TC_006_Add_Address_Test@5e4bd84a]" started-at="2026-09-16T10:29:51 IST" name="tearDown" finished-at="2026-09-16T10:29:52 IST" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:openCartTestCases.TC_006_Add_Address_Test@5e4bd84a]" started-at="2026-10-06T16:52:39 IST" name="tearDown" finished-at="2026-10-06T16:52:39 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
