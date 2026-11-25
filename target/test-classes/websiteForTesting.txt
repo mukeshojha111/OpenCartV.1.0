@@ -11,11 +11,13 @@ https://rahulshettyacademy.com/angularpractice/
 
 https://rahulshettyacademy.com/seleniumPractise/
 
+https://rahulshettyacademy.com/loginpagePractise/
+
 https://the-internet.herokuapp.com/
 
 https://jqueryui.com/
 
-http://rahulshettyacademy.com/client
+http://rahulshettyacademy.com/
 
 
 ======================================
